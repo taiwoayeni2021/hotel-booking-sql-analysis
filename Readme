@@ -1,0 +1,50 @@
+# 🏨 Hotel Booking Database Analysis
+
+This project analyzes hotel booking data using SQL. It explores guest behavior, revenue performance, and booking patterns in a simulated hospitality database.
+
+## 📁 Project Structure
+
+- `database/hotel_booking_db.sql` — SQL script to create the database and insert sample data
+- `insights/` — SQL queries for extracting business insights
+- `ERD/` — Entity Relationship Diagram of the database
+
+## 📊 Key Insights
+
+### 📌 Booking Performance
+- Total revenue generated
+- Revenue by room type
+- Average booking value
+
+### 👤 Guest Behavior
+- Top 5 guests by frequency
+- Guests with highest spending
+- Countries with the most bookings
+
+### 🗓️ Booking Trends
+- Monthly booking patterns
+- Channel analysis (Online, Walk-in, etc.)
+- Most booked room types
+
+## 🧱 Database Schema
+
+- `guest(guest_id, first_name, last_name, country, email)`
+- `room(room_id, room_type, price_per_night, capacity, hotel_branch)`
+- `bookings(booking_id, guest_id, room_id, check_in_date, check_out_date, booking_date, total_amount, booking_channel)`
+
+## 🔗 Relationships
+
+- `bookings.guest_id → guest.guest_id`
+- `bookings.room_id → room.room_id`
+
+## 🧰 Tools Used
+
+- SQL (PostgreSQL)
+- DB Browser for SQLite (or any SQL IDE)
+
+## 👨‍💻 Author
+
+**Ayeni Taiwo** — Data Analyst transitioning from hospitality accounting to hospitality analytics.
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
