@@ -1,0 +1,26 @@
+# Power BI Dashboard – Hotel Booking Report
+
+This Power BI report presents key performance insights based on the cleaned hotel booking data for May 2025.
+
+## 📊 Key Insights
+
+1. **Booking Channels**:
+   - Online contributed 30% of all bookings. Same thing with Phone channel.
+   - Walk-in and Travel agents channels contributed 25% and 15% respectively of total bookings.
+
+2. **Room Types**:
+   - Standard made up about 61% of total revenue generated.
+   - Out of the three room types, suit returned the least revenue turnover.
+
+3. **Branches revenue Performance**:
+   - Airport returned the highest revenue of $3720 during the period under review.
+   - Further investigation needed to understand City centre Branch revenue returned was very low.
+
+## 📁 File Included
+
+- `hotel_analysis_report.pbix`: Power BI report file visualizing key metrics.
+
+## 🛠️ Tools Used
+
+- Power BI
+- GitHub (project hosting)
